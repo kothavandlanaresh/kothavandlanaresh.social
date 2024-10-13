@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+#hero .btn {
+    margin-top: 20px;
+}
+
+/* About Section */
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Skills Section */
+#skills i {
+    color: #007bff;
+}
+
+#skills h4 {
+    margin-top: 15px;
+}
+
+/* Projects Section */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+#contact .form-control {
+    margin-bottom: 15px;
+}
